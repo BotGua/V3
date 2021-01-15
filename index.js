@@ -35,11 +35,11 @@ const anime = JSON.parse(fs.readFileSync('./src/anime.json'))
 const samih = JSON.parse(fs.readFileSync('./src/simi.json'))
 const vcard = 'BEGIN:VCARD\n' // ANAK ANJING MAU NGAPAIN ASU!?
             + 'VERSION:3.0\n' // SANA BUAT SENDIRI ENAK BENER LU!!!
-            + 'FN:Fadhil Graphy\n' // NAMA OWNER BOT
-            + 'ORG:Creator KAZUTOBOT;\n' // KASIH CREDITS GUA FADHIL GRAPHY SU!!!
-            + 'TEL;type=CELL;type=VOICE;waid=6288221608614:+62 882-2160-8614\n' // GANTI NOMOR LU
+            + 'FN:Rifky Gans\n' // NAMA OWNER BOT
+            + 'ORG:Creator AKB4RBOT;\n' // KASIH CREDITS GUA FADHIL GRAPHY SU!!!
+            + 'TEL;type=CELL;type=VOICE;waid=6281368965962:+62 813-6896-5962\n' // GANTI NOMOR LU
             + 'END:VCARD'
-prefix = '/'
+prefix = '#'
 blocked = []
 
 function kyun(seconds){
@@ -149,9 +149,9 @@ async function starts() {
 			}
 
 			const botNumber = client.user.jid
-			const ownerNumber = ["6288221608614@s.whatsapp.net"] // GANTI NOMOR LU
-			const adminbotnumber = ["6288221608614@s.whatsapp.net"] // GANTI NOMOR LU
-			const frendsowner = ["6288221608614@s.whatsapp.net"] // GAUSAH DIGANTI!!!
+			const ownerNumber = ["6281368965962@s.whatsapp.net"] // GANTI NOMOR LU
+			const adminbotnumber = ["6281368965962@s.whatsapp.net"] // GANTI NOMOR LU
+			const frendsowner = ["6285722553839@s.whatsapp.net"] // GAUSAH DIGANTI!!!
 			const isGroup = from.endsWith('@g.us')
 			const sender = isGroup ? mek.participant : mek.key.remoteJid
 			const groupMetadata = isGroup ? await client.groupMetadata(from) : ''
@@ -1984,11 +1984,11 @@ async function starts() {
 					break
 				//frendowner
 				case `addadmin`:
-                   if (!isOwner) return reply('Perintah ini hanya bisa di gunakan oleh Owner Nafiz!', id)
+                   if (!isOwner) return reply('Perintah ini hanya bisa di gunakan oleh Owner!', id)
                    for (let i = 0; i < mentionedJidList.length; i++) {
                    adminNumber.push(mentionedJidList[i])
                    fs.writeFileSync('./lib/database/admin.json', JSON.stringify(adminNumber))
-                   reply('Success Menambahkan Admin Nafiz!')
+                   reply('Success Menambahkan Admin!')
 				   }
                    break
 				case 'wait':
