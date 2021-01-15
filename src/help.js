@@ -1,5 +1,5 @@
 const help = (prefix) => { 
-	return `   *🍁MENU KAZUTOBOT 🍁*
+	return `   *🍁MENU AKB4RBOT🍁*
 	
 	
 ┏━━━━━━━━━━━━━━━━━━━━━┓
@@ -7,10 +7,10 @@ const help = (prefix) => {
 ┃ *LANGGAR BLOCK/BANNED!!!*
 ┣━━━━°❀ *❬ ABOUT ❭* ❀°━━━━━━┛
 ┃
-┃⊱❥ *KAZUTOBOT*
-┃⊱❥ *V 6.0*
-┃⊱❥ *http://wa.me/6288221608614*
-┃⊱❥ *Fadhil Graphy*             
+┃⊱❥ *AKB4RBOT*
+┃⊱❥ *V 1.0*
+┃⊱❥ *http://wa.me/6281368965962*
+┃⊱❥ *Rifky akbar*             
 ┃
 ┣━━°❀ ❬ *TENTANG BOT* ❭ ❀°━━┓
 ┃
@@ -211,28 +211,21 @@ const help = (prefix) => {
 ┣⊱❥ *${prefix}setpp*
 ┣⊱❥ *${prefix}leave*
 ┃
-┣━━━━━°❀ ❬ *NAME* ❭ ❀°━━━━━┓
-┃
-┃ ╔══╦══╦══╦╗╔╦══╦╗
-┃ ║═╦╣╔╗╠╗╗║╚╝╠║║╣║
-┃ ║╔╝║╠╣╠╩╝║╔╗╠║║╣╚╗
-┃ ╚╝─╚╝╚╩══╩╝╚╩══╩═╝
-┃
 ┣━━━━°❀ *❬ SOSMED ❭* ❀°━━━━⊱
 ┃
 ┃ *Ada masalah? Hub :*
-┃ _http://wa.me/6288221608614_
-┃ *Instagram :* @nur.fdhl_
+┃ _http://wa.me/6281368965962_
+┃ *Instagram :* @kamaadoo_tanjiroo_
 ┃ *YouTube :*
-┃ _Fadhil Graphy_
-┃ *Twitter :* @nurfdhl_
+┃ _BELUM BUAT_
+┃ *Twitter :* BELUM BUAT_
 ┃
 ┣━━━━°❀ *❬ NOTE ❭* ❀°━━━━━━⊱
 ┃
-┃Bot ini belum selesai sepenuhnya
-┃Masih dalam proses pengerjaan
-┃Jadi masih jarang aktif.
-┃
+┃MAAF JIKA BOT JARANG ON DIKARENAKAN
+┃HP OWNER KENTANK.MAKLUMIN AJA KALAU BOT 
+┃JARANG ON,DAN BOT MASIH BELUM SELESAI
+┃SEPENUHNYA MASIH BANYAK YANG AKAN DI UPDATE
 ┣━━━━━°❀ ❬ *TQTO* ❭ ❀°━━━━━┛
 ┃
 ┃ *SPECIAL THANGKS TO🤝*
@@ -247,7 +240,7 @@ const help = (prefix) => {
 ┣⊱❥ *${prefix}DLL*
 ┃
 ┣━━━━━━━━━━━━━━━━━━━━┓
-┃ *❬ POWERED BY KAZUTOBOT ❭*
+┃*❬ POWERED BY RIFKY ID ❭*
 ┗━━━━━━━━━━━━━━━━━━━━┛`
 }
 exports.help = help
